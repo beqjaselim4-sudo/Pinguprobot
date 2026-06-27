@@ -12,7 +12,7 @@ const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
 const GROQ_API_KEY  = process.env.GROQ_API_KEY;
 
 // Modello e prompt di sistema configurabili tramite env var (opzionali)
-const GROQ_MODEL    = process.env.GROQ_MODEL    || "llama3-8b-8192";
+const GROQ_MODEL    = process.env.GROQ_MODEL    || "mixtral-8x7b-32768";
 const SYSTEM_PROMPT = process.env.SYSTEM_PROMPT || "You are a helpful and friendly Discord bot assistant.";
 
 if (!DISCORD_TOKEN) {
